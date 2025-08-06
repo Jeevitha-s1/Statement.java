@@ -1,0 +1,8 @@
+public class Main {
+    public static void main(String[] args) {
+        int x = 10;
+        String[] array = {"aaa", "xxx", "yyy"};
+        array[1] = "zzz";
+        System.out.println(array[1]);
+    }
+}
