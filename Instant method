@@ -1,0 +1,19 @@
+INSTANT METHOD:
+syntax:
+modifier returntype name(){
+//method body
+}
+code :
+class Main {
+    public static void main(String[] args) {
+         Main obj=new Main();
+        obj.sample();
+    }
+
+public void sample(){
+    int a=10;
+    System.out.println(a);
+}
+}
+output:
+10
