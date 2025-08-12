@@ -1,0 +1,128 @@
+1 CODE POINT COUNT:
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String str = scanner.nextLine();
+        System.out.println("Code point count: " + str.codePointCount(0, str.length()));
+    }
+}
+
+2 COMPARE TO:
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter first string: ");
+        String str1 = scanner.nextLine();
+        System.out.print("Enter second string: ");
+        String str2 = scanner.nextLine();
+        System.out.println(str1.compareTo(str2));
+    }
+}
+
+3 COMPARE TO IGNORE CAse:
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter first string: ");
+        String str1 = scanner.nextLine();
+        System.out.print("Enter second string: ");
+        String str2 = scanner.nextLine();
+        System.out.println(str1.compareToIgnoreCase(str2));
+    }
+}
+
+
+4 CONCATE:
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter first string: ");
+        String str1 = scanner.nextLine();
+        System.out.print("Enter second string: ");
+        String str2 = scanner.nextLine();
+        System.out.println(str1.concat(str2));
+    }
+}
+
+5 CONTAINS:
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter main string: ");
+        String str = scanner.nextLine();
+        System.out.print("Enter substring to search: ");
+        String substr = scanner.nextLine();
+        System.out.println(str.contains(substr));
+    }
+}
+
+
+6 CONTENT EQUALS
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter first string: ");
+        String str1 = scanner.nextLine();
+        System.out.print("Enter second string: ");
+        String str2 = scanner.nextLine();
+        System.out.println(str1.contentEquals(str2));
+    }
+}
+
+
+7 COPY VALUE OF:
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String str = scanner.nextLine();
+        String copy = str;
+        System.out.println("Copied string: " + copy);
+    }
+}
+
+8 EQUAL IGNORE CASE
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter first string: ");
+        String str1 = scanner.nextLine();
+        System.out.print("Enter second string: ");
+        String str2 = scanner.nextLine();
+        System.out.println(str1.equalsIgnoreCase(str2));
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
