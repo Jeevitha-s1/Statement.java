@@ -1,0 +1,8 @@
+methods:
+Other languages call them functions, procedures, or subroutines, but in Java we refer to
+the executable parts of a class as methods. Class methods are a focus point in this section.
+Instance methods will be discussed in the section on object-oriented programming.
+A Java application is a free-standing program that can be executed from a command line.
+The main method must be present in all Java applications. This is the starting point for all
+applications, and flow of control within the program begins here. As with variables, a
+method becomes a class method by the use of the keyword static.
