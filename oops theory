@@ -1,0 +1,16 @@
+oops:
+Object-oriented programming refers to the building of blueprint designs called classes,
+and the creation of these classes into objects that can communicate with each other. Each
+object contains data elements (variables), and the communication occurs through
+method calls from one object to another. In this section, we will discuss some of the
+principles of object-oriented programming and how Java implements those principles.
+You will learn about inheritance, abstraction, encapsulation, and polymorphism
+inheritacnce:
+single inheritance,
+multi level inheritance
+hierarichal inheritance,
+hybrid inheritance,
+multiple inheritance
+theory  
+inheritance is a fundamental conceot in oops
+it is the mechanism in java
