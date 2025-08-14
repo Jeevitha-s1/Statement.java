@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class parents{
+    String name;
+    void sound(){
+        System.out.println("mom and dad");
+        
+    }
+}
+
+
+class daughter extends parents{
+    void sound(){
+        System.out.println("leegan");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        
+       
+      
+    daughter daughter=new daughter();
+
+    
+        System.out.print("Enter daughter name: ");
+        daughter.name = sc.nextLine();
+
+    
+    
+        
+    }
+}
