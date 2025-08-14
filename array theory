@@ -1,0 +1,6 @@
+arrays:
+Arrays are our first introduction to . An array is a linear group of items of the same type.
+For instance, an array could be a group of integers or it could be a group of floating point
+numbers, but an array cannot be a mixture of the two. The way that an array is declared
+illustrates this property.
+int[] myarray = new int[10];
